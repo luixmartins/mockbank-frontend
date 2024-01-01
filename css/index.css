@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+:root {
+    --gray-a1:#111111;
+    --gray-a2:#191919;
+    --gray-a3:#222222;
+    --gray-a4:#2a2a2a;
+    --gray-a5:#313131;
+    --gray-a6:#3a3a3a;
+    --gray-a7: #484848;
+    --gray-a8:#606060;
+    --gray-a9:#6e6e6e;
+    --gray-a10:#7b7b7b;
+    --gray-a11:#b4b4b4;
+    --gray-a12:#eeeeee;
+  }
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body,
+html {
+    min-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--gray-a12);
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--gray-a12);
+}
+
+#logo-bank {
+    width: 200px;
+    margin-left: 40px;
+}
+
+#logo-bank img {
+    width: 180px;
+}
+
+#header-navigation {
+    margin-right: 120px;
+    display: flex;
+}
+
+#header-navigation a {
+    text-decoration: none; 
+    font-size: 18px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+#btn-login {
+    margin-right: 35px;
+    color: var(--gray-a2);
+    font-weight: 800 !important;
+}
+
+#btn-create-account {
+    background-color: var(--gray-a2);
+    color: var(--gray-a12);
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.content {
+    height: 100%;
+}
+
+.box-image {
+    background: url(../img/escritorio.png);
+}
+
+.box-image {
+    position: relative;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#box-image-content-text {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    margin-left: 60px;
+}
+
+.image-titles {
+    color: var(--gray-a12);
+    font-weight: 700;
+    font-size: 4em;
+}
+
+
+
+.image-texts {
+    color: var(--gray-a12);
+    font-weight: 400;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+}
+
+.section-company {
+    background-color: var(--gray-a12);
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+#sc-image-money {
+    width: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 80px;
+}
+#sc-image-money img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#cp-image {
+    width: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 80px;
+}
+
+#cp-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#cp-content-text {
+    width: 40%;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#cp-content-text h1 {
+    font-size: 3.4em;
+    font-weight: 900 !important;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+#cp-content-text p{
+    font-size: 1.2em;
+    text-align: justify;
+    font-weight: 500;
+    padding-left: 4px;
+}
+
+.box-image-credit {
+    background: url(../img/credit-card.png);
+}
+
+.box-image-credit {
+    position: relative;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#box-image-credit-content-text {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    margin-left: 60px;
+}

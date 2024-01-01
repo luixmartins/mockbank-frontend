@@ -1,1 +1,2 @@
-# mockbank-frontend
+# Development frontend from MockBank project 
+
