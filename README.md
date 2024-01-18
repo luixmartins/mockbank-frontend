@@ -1,2 +1,2 @@
-# Development frontend from MockBank project 
+# Desenvolvimento do FrontEnd da aplicação MockBank 
 
