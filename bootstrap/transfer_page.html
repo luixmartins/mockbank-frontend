@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MockBank</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img src="img/mockbank_logo_minimal.png" alt="MockBank Logo" width="150px">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="menuNavbar">
+                <div class="navbar-nav float-end">
+                    <a href="#" class="nav-link text-dark fs-5">Entrar</a>
+                    <div class="vr mt-2 d-none d-sm-block" style="height: 30px;"></div>
+                    <a href="#" class="nav-link text-dark fs-5">Criar conta</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+
+        <section class="container mt-5 ">
+            <div class="col-12 col-md-10 col-lg-8 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="img/mockbank_logo_minimal.png" width="100px" alt="" class="">
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-12 justify-content-between d-flex">
+                                <p class="lead">Realizar transferência</p>
+                            </div>
+                            <hr class="my-2">
+                            <div class=" col-12">
+                                <div class="col-12 mt-1 d-flex justify-content-between p-2 rounded-3">
+
+                                    <p class="d-inline-block my-auto">Saldo disponível</p>
+                                    <p class="d-inline-block my-auto ">R$3000.00</p>
+
+                                </div>
+                                <div class="col-12 d-flex justify-content-between p-2 rounded-3">
+
+                                    <p class="d-inline-block my-auto">Limite da conta disponível</p>
+                                    <p class="d-inline-block my-auto ">R$3000.00</p>
+                                </div>
+                                <hr class="my-4">
+                                <div class="col-12 ">
+                                    <form action="" class="form-inline">
+                                        <div class="form-group">
+                                            <label class="ms-1" for="exampleInputAmount">Valor (R$)</label>
+                                            <div class="input-group">
+                                                <input type="number" min="0.00" step="0.05" value="1.00"
+                                                    id="exampleInputAmount" class="form-control" placeholder="Price">
+                                            </div>
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="txtUser" class="ms-1">Enviar para</label>
+                                            <input type="text" class="form-control" id="txtUser">
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <label for="txtPassword" class="ms-1">Informe sua senha (a mesma utilizada
+                                                para login)</label>
+                                            <input type="password" class="form-control" id="txtPassword">
+                                        </div>
+                                        <div class="form-group mt-3">
+                                            <button class="btn btn-lg btn-dark w-100" type="submit">Realizar operação</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!---->
